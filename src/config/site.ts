@@ -6,25 +6,23 @@ export interface SiteConfig {
   domain: string;
   fromName: string;
   navLinks: { label: string; href: string }[];
-  footer: {
-    text: string;
-  };
+  footer: { text: string };
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'WebJuice',
-  tagline: 'Fast Websites for B2B Companies',
-  description: 'Astro + Cloudflare stack. No WordPress. Just fast, secure, automated websites.',
-  email: 'hello@fengtalk.ai',
-  domain: 'fengtalk.ai',
-  fromName: 'WebJuice',
+  name: 'Bistro Template',
+  tagline: 'Modern Dining, Timeless Flavor',
+  description: 'A beautiful website template for restaurants, cafes, and food businesses.',
+  email: 'hello@bistro.template',
+  domain: 'restaurant.webjuice.fengtalk.ai',
+  fromName: 'Bistro Template',
   navLinks: [
     { label: 'Home', href: '/' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Cases', href: '/cases' },
+    { label: 'Menu', href: '/menu' },
+    { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
   ],
   footer: {
-    text: 'Built with Astro + Cloudflare.',
+    text: 'Built with WebJuice Stack.',
   },
 };
